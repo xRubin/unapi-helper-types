@@ -1,0 +1,19 @@
+{
+  "name": "unapi/helper-types",
+  "description": "Unapi helper: types",
+  "keywords": [
+    "unapi",
+    "enum",
+    "types"
+  ],
+  "type": "library",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "unapi\\helper\\types\\": "src"
+    }
+  }
+}
