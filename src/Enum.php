@@ -3,6 +3,8 @@ namespace unapi\helper\types;
 
 abstract class Enum
 {
+    public $value;
+
     final public function __construct($value)
     {
         $c = new \ReflectionClass($this);
